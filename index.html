@@ -2,7 +2,7 @@
 	<head>
 		<title>Leonardo Migliorelli</title>
 		<meta charset="UTF-8">
-		<link rel="icon" href="/logo.ico" />
+		<link rel="icon" href="icon/logo.ico" />
 		
 		<meta name="title" content="Developer - Leonardo Migliorelli">
 		<meta name="description" content="Sito personale di Leonardo Migliorelli, programmatore in Macerata">
@@ -13,20 +13,21 @@
 		<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
 
 		<link type="text/css" rel="stylesheet" href="stile.css?ts=<?=time()?>&quot">
+		<!-- questo tipo di href consente un'aggiornamento costante del css -->
 	</head>
 	<body>
-		<h2><a href="/">miglio.tech</a></h2>
-		<div id=tab>
+		<h2 id="title"><a href="/">miglio.tech</a></h2>
+		<div id="tab">
 			<ul>
-				<li><a style="color:rgb(22, 217, 0)">Progetti</a></li>
+				<li><a id="currentPage">Progetti</a></li>
 				<li><a href="contatti.html">Contatti</a></li>
 			</ul>
 		</div>
 		<div id="div">
-			<h3>Presentazione</h3>
+			<h2>Presentazione</h2>
 			<p>
-				Diplomato a Ragioneria con un punteggio di 78/100 e appassionato di informatica<br>
-				Studente Unicam 2° anno laurea in informatica<br>
+				Diplomato a Ragioneria e appassionato di informatica<br>
+				Studente Unicam 2° anno Laurea in Informatica<br>
 				Possiedo abilità nei seguenti linguaggi e tecnologie:
 				<ul>
 					<li> HTML</li>
@@ -34,16 +35,15 @@
 					<li> CSS</li>
 					<li> PHP</li>
 					<li> SQL</li>
-					
+				<br/>
 					<li> Java</li>
 					<li> Python</li>
-					
-					<li> GNU Linux and shell</li>
+					<li> Dart & Flutter</li>
+				<br/>
+					<li> GNU Linux & shell</li>
 					<li> Networking</li>
 				</ul>
-			</br>
-			</br>
-			<a href="https://github.com/leomiglio02" style="bottom: 10px; position: fixed"><h3>Pagina GitHub</h3></a>
+			<h3><a href="https://github.com/leomiglio02" id="gitPage">Pagina GitHub</a></h3>
 			</p>
 		</div>
 	</body>

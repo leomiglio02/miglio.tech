@@ -1,57 +1,65 @@
 @font-face {
-	font-family: Bryndan Write;
-	src:url('Bryndan-Write-Book.ttf');
+  font-family: Bryndan Write;
+  src: url("Bryndan-Write-Book.ttf");
 }
-*{
-	text-decoration: none;
-	color: white;
+body {
+  font-size: 35px;
+  background: black;
+  padding: 50px;
 }
-body{
-	font-size:35px;
-	background: black;
-	padding: 50px;
+#title {
+  font-family: Bryndan Write;
 }
-h2{
-	font-family: Bryndan Write
+#currentPage {
+  color: rgb(22, 217, 0);
 }
-#tab{
-	margin-left: -40px;
-	margin-bottom: 50px;
-	border-bottom: 1px solid rgb(22, 217, 0);
+* {
+  text-decoration: none;
+  color: white;
 }
-#tab ul{
-	display: inline-flex;
-	list-style-type: none;
-	margin: 10px;
-    margin-left: 0px;
+#tab {
+  margin-left: -40px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid rgb(22, 217, 0);
 }
-#tab ul li{
-	font-size: 35px;
-	margin-right: 40px;
+#tab ul {
+  display: inline-flex;
+  list-style-type: none;
+  margin: 10px;
+  margin-left: 0px;
 }
-#tab ul li a:hover{
-    color: rgb(22, 217, 0);
+#tab ul li {
+  font-size: 35px;
+  margin-right: 40px;
 }
-#div{
-	font-size:30px;
+#tab ul li a:hover {
+  color: rgb(22, 217, 0);
 }
-#div h3{
-	font-size:35px;
-	margin-top: 0px;
+#div {
+  font-size: 25px;
 }
-#div a:hover{
-	font-size: 32px;
+#gitPage {
+  font-size: 35px;
+  bottom: 10px;
+  position: fixed;
+  background-color: black;
 }
-#sinistra{
-	width: 50%;
-	float: left;
+#gitPage:hover {
+  font-size: 35px;
 }
-#destra{
-	width: 50%;
-	float: right;
+#div a:hover {
+  font-size: 32px;
 }
-.icon{
-	width: 32px;
-	height: 32px;
-	border-radius: 10px;
+#sinistra {
+  width: 50%;
+  float: left;
+}
+#destra {
+  width: 50%;
+  float: right;
+}
+.icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
 }
