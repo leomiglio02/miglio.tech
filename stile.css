@@ -38,15 +38,6 @@ body {
 #div {
   font-size: 25px;
 }
-#gitPage {
-  font-size: 35px;
-  bottom: 10px;
-  position: fixed;
-  background-color: black;
-}
-#gitPage:hover {
-  font-size: 35px;
-}
 #div a:hover {
   font-size: 32px;
 }
